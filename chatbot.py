@@ -7,7 +7,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 
-os.environ["OPENAI_API_KEY"] ="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"
+os.environ["OPENAI_API_KEY"] ="YOUR OPENAI API KEY"
 pdf_path = "terms.pdf"
 loader = PyPDFLoader(pdf_path)
 pages = loader.load_and_split()
