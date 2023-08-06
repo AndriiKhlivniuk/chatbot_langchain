@@ -2,3 +2,5 @@
 .env
 # Ignore venv
 env
+
+__pycache__
